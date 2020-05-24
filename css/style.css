@@ -1,0 +1,119 @@
+body {
+    font-family: 'Chelsea Market', cursive;
+    background-color: black;
+    cursor: default;
+}
+
+.content {
+    vertical-align: middle;
+}
+
+.principal {
+    height: 842.844px;
+    position: relative
+}
+
+.divider {
+    background-color: #aaaa;
+}
+
+.describe {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.first-title {
+    color: tomato;
+    background-image: url(../img/maos.jpeg);
+    background-size: 700px 400px;
+    background-position: center;
+}
+
+.title {
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.title-index {
+    width: 600px;
+    margin: 50px auto;
+    border-radius: 5px;
+}
+
+.history:hover {
+    cursor: pointer;
+}
+
+.choices {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.choices li {
+    text-align: center;
+    display: inline-block;
+    width: 30%; 
+    margin: 0 1.5%;
+    vertical-align: top;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.choices li:hover {
+    border-color: tomato;
+    color: tomato;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+.loading {
+    display: none;
+    height: 10em;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.loadTitle {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.result {
+    display: none;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.x {
+    font-size: 5em;
+}
+
+.reference {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button-game {
+    margin-left: 60px;
+    padding: auto 50px;
+}
+
+.fadeOut {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.fadeIn {
+    opacity: 100;
+    transition: 0.5s;
+}
